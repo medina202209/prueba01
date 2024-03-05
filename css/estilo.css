@@ -1,0 +1,133 @@
+body{
+    font-family: Arial;
+    font-size: 14px;
+
+}
+
+#logo{
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    color: #AA9166;
+    font-size: 30PX;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#logo + div{
+    background-color: black;
+}
+
+nav{
+    background-color: brown;
+}
+
+header{
+    background-color: blueviolet;
+}
+
+aside > article{
+    background-color: black;
+    text-align: center;
+    color: gray;
+    font-size: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-right-color: gray;
+    border-right-style: solid;
+    border-right-width: 1px;
+}
+
+aside > article h4{
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+}
+
+aside > article > #icono {
+    font-size: 25px;
+    color: #AA9166;
+}
+
+.navbar-nav a:hover{
+    color: #AA9166
+}
+
+#tituloslider{
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+
+#textoslider{
+    margin-bottom: 50px;
+    font-size: 25px;
+}
+
+#boton{
+    background-color: #111417;
+    color: #AA9166;
+    border-color: #AA9166;
+    margin-bottom: 150px;
+}
+
+#iconos_n{
+    background-color: black;
+    color: #AA9166;
+    font-size: 60px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+section{
+    padding: 5px;
+}
+
+#ley{
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+}
+
+#otrosa > article{
+    background-color: white;
+    text-align: center;
+}
+
+#otrosa > article > #icono{
+    text-align: center;
+    background-color: black;
+    color: #AA9166;
+    font-size: 60px;
+    padding: 20px;
+    margin-bottom: 0px;
+}
+
+#otrosa > article > #texto{
+    color: white;
+    background-color: #121518;
+    font-size: 10px;
+    margin-top: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#otrosa > article > #texto > #botong {
+    background-color: #111417;
+    color: #AA9166;
+    border-color: #AA9166;
+    border-style: solid;
+    border-width: 1px;
+}
+
+#fotos >article {
+    background-color: white;
+    padding: 10px;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}

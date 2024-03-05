@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ABOGADOS</title>
+
+    <!--estilo sitio web-->
+
+    <link rel="stylesheet" href="css/estilo.css">
+
+    <!--Enlace a estilos bootstrap-->
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+
+    <!--enlazar iconos-->
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+
+</head>
+
+<body>
+    <!--bootstrap arma una fila-->
+    <div class="row">
+        <!--columna que tiene longitud 3 celdas-->
+        <div id="logo" class="logo col-lg-3">Kanun</div>
+        <!--columna que tiene longitud de 9 celdas y la suma total es 12 que es lo que permite bootstrap-->
+        <div class="col-lg-9"></div>
+    </div>
+
+    <!--Menu-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark" data-bs-theme="dark"">
+        <div class=" container-fluid">
+        <a class="navbar-brand" href="#"> </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+                <a class="nav-link" href="articulos.html">Articulos</a>
+                <a class="nav-link" href="galeria.html">Galería de Imagenes</a>
+                <a class="nav-link" href="videos.html">videos</a>
+                <a class="nav-link" href="contactenos.html">Contáctenos</a>
+            </div>
+        </div>
+        </div>
+    </nav>
+
+    <!--banner . slider-->
+    <header>
+        <div id="carouselExampleDark" class="carousel carousel-dark slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="img/Banner.jpg" class="d-block w-100" alt="img1">
+                    <div class="carousel-caption d-none d-md-block" style="color: white;">
+                        <div id="tituloslider">Estan preparados para el caso</div>>
+                        <div id="textoslider">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum harum
+                            nesciunt quos nisi perferendis, dolorem atque iste officia inventore assumenda at</div>
+                        <input type="button" value="Leer mas..." class="btn" id="boton">
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="img/Banner2.jpg" class="d-block w-100" alt="img2">
+                    <div class="carousel-caption d-none d-md-block" style="color: white;">
+                        <div id="tituloslider">Estan preparados para el caso</div>>
+                        <div id="textoslider">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum harum
+                            nesciunt quos nisi perferendis, dolorem atque iste officia inventore assumenda at</div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/Banner3.jpg" class="d-block w-100" alt="img3">
+                    <div class="carousel-caption d-none d-md-block" style="color: white;">
+                        <div id="tituloslider">Estan preparados para el caso</div>>
+                        <div id="textoslider">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum harum
+                            nesciunt quos nisi perferendis, dolorem atque iste officia inventore assumenda at</div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+        </div>
+    </header>
+
+    <!--contenedor-->
+    <div class="container">
+        <!--aside - articulos-->
+        <aside class="row">
+            <article class="col-lg-3">
+                <span class="fas fa-check-circle" id="icono"></span>
+                <h4>Legal</h4>
+                <span>Lorem ipsum</span>
+            </article>
+            <article class="col-lg-3">
+                <span class="fas fa-user-tie" id="icono"></span>
+                <h4>Eventos</h4>
+                <span>Lorem ipsum</span>
+            </article>
+            <article class="col-lg-3">
+                <span class="fas fa-thumbs-up" id="icono"></span>
+                <h4>Ligitios</h4>
+                <span>Lorem ipsum</span>
+            </article>
+            <article class="col-lg-3">
+                <span class="fas fa-handshake" id="icono"></span>
+                <h4>Otros</h4>
+                <span>Lorem ipsum</span>
+            </article>
+        </aside>
+
+        <!--section-->
+        <section class="row">
+            <article class="col-lg-8">
+                <img src="img/titulo.jpg" width="100%">
+                <div class="row">
+                    <div class="col-lg-5" id="iconos_n">
+                        <span class="fas fa-gavel"></span>
+                    </div>
+                    <div class="col-lg-7">
+                        <h5>Titulo</h5>
+                        <hr>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste fuga, eveniet, unde doloribus
+                            nesciunt maxime et consectetur</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-5" id="iconos_n">
+                        <span class="fas fa-balance-scale"></span>
+                    </div>
+                    <div class="col-lg 7">
+                        <h5>Titulo</h5>
+                        <hr>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste fuga, eveniet, unde doloribus
+                            nesciunt maxime et consectetur</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-5" id="iconos_n">
+                        <span class="fas fa-smile"></span>
+                    </div>
+                    <div class="col-lg-7">
+                        <h5>Titulo</h5>
+                        <hr>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste fuga, eveniet, unde doloribus
+                            nesciunt maxime et consectetur</p>
+                    </div>
+                </div>
+            </article>
+            <div class="col-lg-4">
+                <img src="img/Articulo.jpg" width="100%" id="ley">
+            </div>
+        </section>
+        <!--aside-->
+        <aside class="row" id="otrosa">
+            <article class="col-lg-4">
+                <div id="icono">
+                    <span class="fas fa-landmark"></span>
+                </div>
+                <div id="texto">
+                    <h5>titulo</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <input type="button" class="btn" value="Leer mas..." id="botong">
+                </div>
+
+            </article>
+            <article class="col-lg-4">
+                <div id="icono">
+                    <span class="fas fa-users"></span>
+                </div>
+                <div id="texto">
+                    <h5>titulo</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <input type="button" class="btn" value="Leer mas..." id="botong">
+                </div>
+            </article>
+            <article class="col-lg-4">
+                <div id="icono">
+                    <span class="fas fa-hand-holding-usd"></span>
+                </div>
+                <div id="texto">
+                    <h5>titulo</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <input type="button" class="btn" value="Leer mas..." id="botong">
+                </div>
+            </article>
+        </aside>
+
+        <!--titulo-->
+        <center>
+            <img src="img/Titulo2.jpg" width="70%" alt="">
+        </center>
+        <br>
+
+        <aside class="row" id="fotos">
+            <article class="col-lg-3">
+                <img src="img/team1.jpg" width="100%" alt="">
+            </article>
+            <article class="col-lg-3">
+                <img src="img/team2.jpg" width="100%" alt="">
+            </article>
+            <article class="col-lg-3">
+                <img src="img/team3.jpg" width="100%" alt="">
+            </article>
+            <article class="col-lg-3">
+                <img src="img/team4.jpg" width="100%" alt="">
+            </article>
+        </aside>
+
+        <footer>Derechos de autor</footer>
+
+    </div>
+
+</body>
+<!--script de bootstrap js-->
+<script src="js/bootstrap/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+    integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+    crossorigin="anonymous"></script>
+
+<!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>-->
+
+
+</html>
